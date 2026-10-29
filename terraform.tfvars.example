@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and replace the value with your Azure subscription ID.
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# Optional customizations:
+name_prefix                 = "mg-poc"
+organization_display_name   = "POC Organization"
+platform_display_name       = "POC Platform"
+workloads_display_name      = "POC Workloads"
+identity_display_name       = "POC Identity"
+dev_display_name            = "POC Development"
