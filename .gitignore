@@ -5,3 +5,12 @@ crash.log
 crash.*.log
 terraform.tfvars
 *.tfplan
+
+# Compliance execution logs
+PolicyComplianceReport.txt
+*.auto.tfvars
+.env
+.env.*
+*.pem
+*.key
+*.pfx

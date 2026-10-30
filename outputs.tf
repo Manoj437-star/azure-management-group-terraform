@@ -11,7 +11,7 @@ output "management_group_hierarchy" {
 
 output "hierarchy_summary" {
   description = "Human-readable hierarchy."
-  value = <<-EOT
+  value       = <<-EOT
   Tenant Root Group (built-in)
   └── ${azurerm_management_group.organization.display_name}
       ├── ${azurerm_management_group.platform.display_name}

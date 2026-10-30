@@ -38,3 +38,8 @@ variable "dev_display_name" {
   type        = string
   default     = "POC Development"
 }
+variable "approved_public_ip_regions" {
+  description = "Azure regions where public IP resources are allowed."
+  type        = list(string)
+  default     = ["centralindia", "southindia"]
+}
